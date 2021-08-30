@@ -12,7 +12,7 @@ import com.example.signinlibrary.common.Utils.Companion.showToast
 import com.example.signinlibrary.databinding.FragmentLoginBinding
 import com.example.signinlibrary.model.LoginDataModel
 
-class LoginFragment : Fragment(), View.OnClickListener {
+public class LoginFragment : Fragment(), View.OnClickListener {
     var mFragmentLoginBinding: FragmentLoginBinding? = null
     var mLoginDataCallback: LoginDataCallback? = null
 
